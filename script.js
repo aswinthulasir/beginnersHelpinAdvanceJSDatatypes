@@ -156,3 +156,18 @@ for (let i = 0; i <= 10; i++) {
     console.log(i)
     
 }
+
+//for-in (for objects)
+
+for (const key in car) {
+    console.log(key)
+}
+
+for (const key in car) {
+    console.log(car[key])
+}
+
+for (const item of arr) {
+    console.log(item)
+}
+
