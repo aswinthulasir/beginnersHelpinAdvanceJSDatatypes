@@ -111,3 +111,48 @@ if (k === r) {
 } else {
   console.log("r is greater");
 }
+
+// functions (repeated calling/code reusability)
+
+function addition(k,r) {
+    var results=k+r;
+    console.log('The added value is ' +results);
+
+
+
+}
+addition(20,30);
+
+function subtraction(k,r) {
+    var result=k-r;
+    return result;
+
+
+
+}
+addition(20,30);
+
+var sub=subtraction(128,18);
+console.log('The result is '+sub);
+
+
+//loops
+
+for (let i = 0; i < 11; i++) {
+    console.log(i)
+    
+}
+
+for (let i = 0; i < 10; i++) {
+    console.log(i+1)
+    
+}
+
+for (let i = 0; i < 10; i++) {
+    console.log(1+i)
+    
+}
+for (let i = 0; i <= 10; i++) {
+    console.log(i)
+    
+}
