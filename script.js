@@ -167,7 +167,23 @@ for (const key in car) {
     console.log(car[key])
 }
 
+//for-out (for obj iterative)
+
 for (const item of arr) {
     console.log(item)
 }
+
+//while loop
+let i=1
+while (i < 11) {
+    console.log(i);
+    i++;
+}
+
+//do while
+let j=0;
+do {
+    console.log(j);
+    j++
+} while (j<=10);
 
